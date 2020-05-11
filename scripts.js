@@ -1,3 +1,17 @@
+//4th part
+
+
+$('div').text('hello');
+$('div').css('background','purple')
+$('p').text('hello');
+$('p').html('<strong>hello</strong>');
+$('p').append('<strong> another</strong>');
+$('div').remove();
+$('button').click(event => {
+  $('.first').toggleClass('hidden');
+});
+
+//1-3 part
 console.log("most jön a java");
 let color = ["red","blue","green"];
 let post = {
